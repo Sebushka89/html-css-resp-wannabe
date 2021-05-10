@@ -74,13 +74,39 @@ img {
 
 /* Inizio soluzione*/
 @media screen and (max-width: 576px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100%;
-} 
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+  .container .row{
+    background-color: lightgoldenrodyellow;
+    margin-top: 0;
+}
+  .row h1{ 
+    padding-top: 20px;
+}
+  #steps .row{
+    background-color: white;
+}
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
   width: 100%;
-} 
+  margin-top: 20px;
 }
+  #lezioni, #steps, #why{
+    font-size: 26px;
+  }
+  #why .row .third{
+    padding-bottom: 20px;
+  }
+  #steps .row>.right {
+    padding-bottom: 20px;
+  }
